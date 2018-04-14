@@ -26,6 +26,7 @@ h2{
     text-transform: uppercase;
     font-size: 3rem;
     color: mistyrose;
+    font-weight: 300;
     
 }
 
@@ -44,8 +45,8 @@ h2{
     display: inline-block;
     color: rgb(255, 255, 255);
     background-size: 320%;
-    transition: all .4s;
-    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, rgb(253, 251, 251) 50%);
+    transition: all .5s;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, rgb(255, 255, 255) 50%);
 }
 
 .list-menu a:hover, a:active {
@@ -66,7 +67,7 @@ h2{
     }
       
 .menu{
-    background-image: radial-gradient(royalblue, blueviolet);
+    background-image: radial-gradient(rgb(16, 54, 165), rgb(43, 198, 226));
     grid-column: full-start / col-end 4;
 
     display: grid;
