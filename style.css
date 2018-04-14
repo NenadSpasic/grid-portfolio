@@ -15,14 +15,7 @@ body {
     color: #6D5D4B;
     font-weight: 300;
     line-height: 1.6;
-    background: -moz-linear-gradient(125deg, #1301FE 14%, #F4F60C 50%, #30FF61 72%);/* FF3.6+ */
-    background: -webkit-gradient(linear, 125deg, color-stop(14%, 1301FE), color-stop(50%, F4F60C), color-stop(72%, 30FF61));/* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(125deg, #1301FE 14%, #F4F60C 50%, #30FF61 72%);/* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(125deg, #1301FE 14%, #F4F60C 50%, #30FF61 72%);/* Opera 11.10+ */
-    background: -ms-linear-gradient(125deg, #1301FE 14%, #F4F60C 50%, #30FF61 72%);/* IE10+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
-    background: linear-gradient(125deg, #1301FE 14%, #F4F60C 50%, #30FF61 72%);/* W3C */
-    background-attachment: fixed;
+    background: rgb(212, 212, 210);
     font-size: 1.6rem;
     }
 
