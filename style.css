@@ -78,7 +78,7 @@ h2{
 }
 
 .about{
-    background-color: burlywood;
+    background-image: linear-gradient(rgb(202, 222, 226), rgb(16, 54, 165));
     grid-column: col-start 5 / center-end;
 }
 
