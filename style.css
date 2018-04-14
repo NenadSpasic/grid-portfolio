@@ -29,7 +29,7 @@ h2{
     
 }
 
-.list-menu{
+.list-menu a {
     margin: .7rem;
     font-size: 2.3rem;
     text-decoration: none;
