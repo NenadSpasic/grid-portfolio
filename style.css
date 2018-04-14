@@ -8,3 +8,63 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
+
+body {
+    font-family: "Nunito", sans-serif;
+    color: #6D5D4B;
+    font-weight: 300;
+    line-height: 1.6;
+    background: -moz-linear-gradient(125deg, #1301FE 14%, #F4F60C 50%, #30FF61 72%);/* FF3.6+ */
+    background: -webkit-gradient(linear, 125deg, color-stop(14%, 1301FE), color-stop(50%, F4F60C), color-stop(72%, 30FF61));/* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(125deg, #1301FE 14%, #F4F60C 50%, #30FF61 72%);/* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(125deg, #1301FE 14%, #F4F60C 50%, #30FF61 72%);/* Opera 11.10+ */
+    background: -ms-linear-gradient(125deg, #1301FE 14%, #F4F60C 50%, #30FF61 72%);/* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+    background: linear-gradient(125deg, #1301FE 14%, #F4F60C 50%, #30FF61 72%);/* W3C */
+    background-attachment: fixed;
+    font-size: 1.6rem;
+    }
+
+.container {
+        display: grid;
+        grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+        grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) 
+        [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] 
+        minmax(6rem, 1fr) [full-end]; 
+    }
+      
+.menu{
+    background-color: orangered;
+    grid-column: full-start / col-end 4;
+}
+
+.about{
+    background-color: burlywood;
+    grid-column: col-start 5 / center-end;
+}
+
+.work {
+    background-color: blueviolet;
+    grid-column: full-start / col-end 4;
+
+}
+
+.edu{
+    background-color: royalblue;
+    grid-column: col-start 5 / center-end;
+}
+
+.projects{
+    background-color: peru;
+    grid-column: full-start / col-end 4;
+}
+
+.contact{
+    background-color: palegreen;
+    grid-column: col-start 5 / center-end;
+}
+
+.footer {
+    background-color: #101d2c;
+    grid-column: full-start / center-end; }
+}
