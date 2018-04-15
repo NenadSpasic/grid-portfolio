@@ -63,10 +63,15 @@ h2{
 
 .container {
         display: grid;
-        grid-template-rows: 100vh min-content 40vw repeat(3, min-content);
+         grid-template-rows: repeat(3, 95vh);
         grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) 
         [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] 
         minmax(6rem, 1fr) [full-end]; 
+
+        /*
+         
+        grid-template-rows: 100vh min-content 40vw repeat(3, min-content);
+        */
     }
       
 .menu{
@@ -199,26 +204,26 @@ a:active {
 
 /*Work secttion */
 .work {
-    background-color: blueviolet;
+    background-image: linear-gradient(rgb(85, 126, 240), rgba(65, 219, 224, 0.877));
     grid-column: full-start / col-end 4;
 
 }
 
 /*Education secttion */
 .edu{
-    background-color: royalblue;
+    background-image: linear-gradient(rgba(101, 236, 214, 0.877), rgba(177, 238, 97, 0.904));
     grid-column: col-start 5 / center-end;
 }
 
 /*Projects secttion */
 .projects{
-    background-color: peru;
+    background-image: linear-gradient(rgb(177, 238, 97), rgba(240, 226, 37, 0.836));
     grid-column: full-start / col-end 4;
 }
 
 /*Contact secttion */
 .contact{
-    background-color: palegreen;
+    background-image: linear-gradient(rgba(101, 236, 214, 0.877), rgba(177, 238, 97, 0.904));
     grid-column: col-start 5 / center-end;
 }
 
@@ -226,4 +231,15 @@ a:active {
 /*Footer */
 .footer {
     background-color: #101d2c;
-    grid-column: full-start / center-end; }
+    grid-column: full-start / center-end;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #f3f3f3;
+ }
+
+.footer a:hover{
+    background-color: #f3f3f3;
+    transition-duration: 0.4s;
+}
+
+
