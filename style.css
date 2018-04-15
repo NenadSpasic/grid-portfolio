@@ -29,7 +29,7 @@ h2{
     font-weight: 300;
     
 }
-
+/*Menu secttion */
 .list-menu a {
     margin: .7rem;
     font-size: 2.3rem;
@@ -77,32 +77,44 @@ h2{
 
 }
 
+/*About secttion */
 .about{
     background-image: linear-gradient(rgb(202, 222, 226), rgb(16, 54, 165));
     grid-column: col-start 5 / center-end;
+
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-items: center;
 }
 
+/*Work secttion */
 .work {
     background-color: blueviolet;
     grid-column: full-start / col-end 4;
 
 }
 
+/*Education secttion */
 .edu{
     background-color: royalblue;
     grid-column: col-start 5 / center-end;
 }
 
+/*Projects secttion */
 .projects{
     background-color: peru;
     grid-column: full-start / col-end 4;
 }
 
+/*Contact secttion */
 .contact{
     background-color: palegreen;
     grid-column: col-start 5 / center-end;
 }
 
+
+/*Footer */
 .footer {
     background-color: #101d2c;
     grid-column: full-start / center-end; }
