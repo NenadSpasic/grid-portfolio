@@ -242,6 +242,12 @@ a:active {
     filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.4));
 }
 
+.work1-img img:hover{
+    border-radius: .8rem;
+    transform: translateY(-1.5rem);
+    transition: 0.4s;
+}
+
 .work1-text{
     padding: 2px 16px;
     display: grid;
@@ -274,6 +280,12 @@ a:active {
     border-radius: .8rem;
     filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.4));
 }
+
+.work2-img img:hover{
+    border-radius: .8rem;
+    transform: translateY(-1.5rem);
+    transition: 0.4s;
+}
 .work2-text{
     padding: 2px 16px;
     display: grid;
@@ -290,7 +302,7 @@ a:active {
     grid-template-rows: 2fr, 1fr;
 }
 .work3:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
 }
 
 .work3-img {
@@ -306,6 +318,13 @@ a:active {
     border-radius: .8rem;
     filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.4));
 }
+
+.work3-img img:hover{
+    border-radius: .8rem;
+    transform: translateY(-1.5rem);
+    transition: 0.4s;
+}
+
 .work3-text{
     padding: 2px 16px;
     display: grid;
