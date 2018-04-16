@@ -382,7 +382,7 @@ a:active {
 }
 
 /*Contact secttion */
-.contact{
+.recipies{
     background-image: linear-gradient(rgba(101, 236, 214, 0.877), rgba(177, 238, 97, 0.904));
     grid-column: col-start 5 / center-end;
 }
