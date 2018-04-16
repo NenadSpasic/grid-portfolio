@@ -399,4 +399,41 @@ a:active {
     transition-duration: 0.4s;
 }
 
+.footer p {
+  grid-column: 1 / -1;
+  display: grid;
+ grid-template-columns: 1fr auto 1fr;
+  grid-gap: 0rem; 
+  align-items: center;
+}
+
+.footer p:after {
+    display: block;
+    content: '';
+    height: 1rem;
+    background: linear-gradient(to right, #f3f3f3, transparent);
+}
+
+.footer p:before {
+    display: block;
+    content: '';
+    height: 1rem;
+    background: linear-gradient(to left, #f3f3f3, transparent);
+}
+
+/*
+.gallery h2:before, .gallery h2:after {
+  display: block;
+  content: '';
+  height: 10px;
+  background: linear-gradient(to var(--direction, left), var(--yellow), transparent);
+}
+.gallery h2 {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-gap: 20px;
+  align-items: center;
+}
+*/
 
