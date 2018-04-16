@@ -379,14 +379,12 @@ a:active {
 }
 
 /*edu 1  */
-.eduk1{
-
+.edu1{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px; 
     display: grid;
     grid-template-columns: 2fr, 1fr;
-    
     
 }
 
@@ -394,7 +392,6 @@ a:active {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     
 }
-
 
 .edu1-text{
     padding: 2px 16px;
