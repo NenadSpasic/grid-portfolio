@@ -418,7 +418,7 @@ a:active {
     display: block;
     content: '';
     height: 1rem;
-    background: linear-gradient(to left, #f3f3f3, transparent);
+    background: linear-gradient(to left, rgba(177, 238, 97, 0.904), transparent);
 }
 
 /*
