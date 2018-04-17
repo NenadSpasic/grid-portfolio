@@ -408,6 +408,7 @@ a:active {
     border-radius: 5px; 
     display: grid;
     grid-template-rows: 2fr, 1fr;
+    
 }
 
 .edu2:hover {
@@ -448,7 +449,6 @@ a:active {
     position: relative; /* Position the image container (needed to position the left and right arrows) */
   
 }
-
   
   /* Hide the images by default */
   .mySlides {
@@ -498,59 +498,7 @@ a:active {
     top: 0;
   }
   
-  /* Container for image text */
-  .caption-container {
-    text-align: center;
-    background-color: #222;
-    padding: 2px 16px;
-    color: white;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Six columns side by side */
-  .column {
-    float: left;
-    width: 16.66%;
-  }
-  
-  /* Add a transparency effect for thumnbail images */
-  .demo {
-    opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 /*recipies secttion */
 .recipies{
