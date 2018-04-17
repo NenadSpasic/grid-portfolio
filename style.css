@@ -447,13 +447,18 @@ a:active {
     background-image: linear-gradient(rgb(177, 238, 97), rgba(240, 226, 37, 0.836));
     grid-column: full-start / col-end 4;
     position: relative; /* Position the image container (needed to position the left and right arrows) */
+    
   
 }
   
   /* Hide the images by default */
   .mySlides {
     display: none;
-  }
+    text-align: center;
+    filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.4));
+    margin-top: 1.6rem;
+    
+}
   
   /* Add a pointer when hovering over the thumbnail images */
   .cursor {
