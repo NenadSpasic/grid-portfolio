@@ -447,12 +447,14 @@ a:active {
     background-image: linear-gradient(rgb(177, 238, 97), rgba(240, 226, 37, 0.836));
     grid-column: full-start / col-end 4;
     position: relative; /* Position the image container (needed to position the left and right arrows) */
-    
+    display: grid;
   
 }
   
   /* Hide the images by default */
   .mySlides {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
     display: none;
     text-align: center;
     filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.4));
@@ -509,7 +511,47 @@ a:active {
 .recipies{
     background-image: linear-gradient(rgba(101, 236, 214, 0.877), rgba(177, 238, 97, 0.904));
     grid-column: col-start 5 / center-end;
+    display: grid;
 }
+
+.recipies1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+    display: grid;
+    grid-template-rows: 2fr, 1fr;
+}
+.recipies1:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+.recipies-img {
+    border-radius: 5px 5px 0 0;
+    display: grid;
+    align-items: center;
+    height: auto;
+    width: 95%;
+    margin-left: .5rem;
+}
+
+.recipies-img img{
+    border-radius: .8rem;
+    filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.4));
+}
+
+.recipies-img img:hover{
+    border-radius: .8rem;
+    transform: translateY(-1.5rem);
+    transition: 0.4s;
+}
+
+.recipies-text{
+    padding: 2px 16px;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+
 
 
 /*Footer */
